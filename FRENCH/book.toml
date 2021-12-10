@@ -1,0 +1,16 @@
+[book]
+title = "La programmation asynchrone avec Rust"
+authors = ["Taylor Cramer"]
+
+[build]
+create-missing = false
+
+[preprocess.links]
+
+[output.html]
+git-repository-url = "https://github.com/Jimskapt/async-book-fr/"
+site-url = "/async-book-fr/"
+
+[output.linkcheck]
+follow-web-links = true
+traverse-parent-directories = false

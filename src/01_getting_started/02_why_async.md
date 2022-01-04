@@ -1,18 +1,10 @@
 # 왜 비동기가 필요할까요?
 
-We all love how Rust empowers us to write fast, safe software.
-But how does asynchronous programming fit into this vision?
+Rust는 개발자가 더 빠르고 안전한 코드를 작성할 수 있도록 도와주며, 바로 이 특징 때문에 우리는 러스트를 좋아합니다. 하지만 비동기 프로그래밍이 이것과 어떤 관련이 있을까요?
 
-우리는 모두 러스트가 우리에게 빠르고 안전한 소프트위어를 만들게 하기 때문에 ㅏ랑합니다 하지만 비동기 프로그래밍이 이것과 무슨 관련이 있을까요??
+비동기 프로그래밍, 또는 async는 _동시성 프로그래밍 모델_ 의 일종이며, 점점 더 많은 프로그래밍 언어들이 비동기 프로그래밍을 지원해 나가고 있습니다. 무엇보다 비동기 프로그래밍 모델은 동시에 진행되어야 하는 수많은 태스크들을 적은 OS스레드 위에서 동시에 실행할 수 있도록 해주며, 동시에 `async/await` 문법을 이용해 친숙한 동기 코드와 비슷한 모습을 유지합니다.
 
-비동기 프로그래밍, 또는 async라고 하는 이것은, is a _concurrent programming model_
-점점 더 많ㅇ느 언어들이 비동기를 지원하고 있습니다.
-이것은 당신이 수맘ㅎ는 동시적안 작It lets you run a large number of concurrent
-태스크는 OS스레드 위에 올라갖ㅂ니다.tasks on a small number of OS threads, while preserving much of the
-look and feel of ordinary synchronous programming, through the
-`async/await` syntax.
-
-## 비동기 vs 다른 동시성 모델들
+## Async vs other concurrency models
 
 Concurrent programming is less mature and "standardized" than
 regular, sequential programming. As a result, we express concurrency

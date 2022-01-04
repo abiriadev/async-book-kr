@@ -1,4 +1,4 @@
-# 왜 비동기가 필요할까요?
+# Why Async?
 
 We all love how Rust empowers us to write fast, safe software.
 But how does asynchronous programming fit into this vision?

@@ -6,8 +6,7 @@ Rust는 개발자가 더 빠르고 안전한 코드를 작성할 수 있도록 �
 
 ## 비동기 vs 기타 동시성 모델
 
-Concurrent programming is less mature and "standardized" than
-regular, sequential programming. As a result, we express concurrency
+동시성 프로그래밍은 현재 널리 사용되는 연속적 프로그래밍 기법에 비해 아직 많이 미성숙하며, 덜 "표준화"되어 있는 상태입니다. As a result, we express concurrency
 differently depending on which concurrent programming model
 the language is supporting.
 A brief overview of the most popular concurrency models can help

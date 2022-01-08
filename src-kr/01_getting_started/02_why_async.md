@@ -4,7 +4,7 @@ Rust는 개발자가 더 빠르고 안전한 코드를 작성할 수 있도록 �
 
 비동기 프로그래밍, 또는 async는 _동시성 프로그래밍 모델_ 의 일종이며, 점점 더 많은 프로그래밍 언어들이 비동기 프로그래밍을 지원해 나가고 있습니다. 무엇보다 비동기 프로그래밍 모델은 동시에 진행되어야 하는 수많은 태스크들을 적은 OS스레드 위에서 동시에 실행할 수 있도록 해주며, 동시에 `async/await` 문법을 이용해 친숙한 동기 코드와 비슷한 모습을 유지합니다.
 
-## Async vs other concurrency models
+## 비동기 vs 기타 동시성 모델
 
 Concurrent programming is less mature and "standardized" than
 regular, sequential programming. As a result, we express concurrency
